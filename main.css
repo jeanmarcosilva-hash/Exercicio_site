@@ -7,6 +7,13 @@
 body{
     background-color: black;
     color: #ffff;
+    font-family: "Roboto", sans-serif;
+}
+
+header,
+section h2 {
+    font-family:'bungee', cursive;
+    font-weight: normal;
 }
 
 header {
@@ -19,6 +26,15 @@ header nav li {
     display: inline;
     margin-left: 16px;
     font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container img{
+    padding: 32px;
 }
 
 .container {
@@ -35,6 +51,15 @@ section .container {
 
 }
 
+.Selo-qualy img {
+    width: 180px;
+}
+
+.Selo-qualy  li {
+    display: inline;
+    margin-right: 8px;
+}
+
 
 section .container{
     align-items: flex-start;
@@ -46,4 +71,10 @@ section{
 
 section h2{
     margin-bottom: 16px;
+}
+
+footer{
+    background-color: #7a1188;
+    color: #ecf0f1;
+    padding: 24px 0;
 }
